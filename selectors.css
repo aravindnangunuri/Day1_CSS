@@ -20,3 +20,16 @@ a:hover{
 a:link{
     color: red;
 }
+img{
+    height: 120px;
+    width: 200px;
+}
+input:checked{
+    accent-color: red;
+}
+input:focus{
+    color: purple;
+}
+input::placeholder{
+    color:orangered;
+}
