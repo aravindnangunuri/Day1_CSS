@@ -1,0 +1,22 @@
+li::marker{
+    content: '🥛';
+}
+li+li::marker{
+    content: '🍣';
+}
+li+li+li::marker{
+    content: '🍨';
+}
+li+li+li+li::marker{
+    content: '🍜';
+}
+li+li+li+li+li::marker{
+    content: '👜';
+}
+
+a:hover{
+    color: pink;
+}
+a:link{
+    color: red;
+}
